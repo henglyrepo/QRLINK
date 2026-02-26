@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://qrlink.vercel.app";
+const siteUrl = "https://qrlink-weld.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {

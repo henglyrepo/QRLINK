@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://qrlink.vercel.app";
+const siteUrl = "https://qrlink-weld.vercel.app";
 const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID || "ca-pub-1285117831702493";
 
 export const metadata: Metadata = {
